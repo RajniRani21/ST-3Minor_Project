@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ST3-Mini Project</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="form_Parent">
+    <p id="form_Heading">Details form</p>
+
+<div id="form_View">
+    <hr>
+    <table>
+        <tr>
+        <td><label for="Name">Name:</label></td>
+        <td><input type="text" id="Name" name="name" minlength="3"></td>
+        </tr>
+        <tr>
+            <td> <label for="mob_no">Mob.no:</label></td>
+            <td><input type="text" id="mob_no" name="mob_no" minlength="10"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email Id:</label></td>
+            <td><input type="email" id="email" name="email"></td>
+
+        </tr>
+        <tr>
+            <td colspan="2" align="center"> <input type="submit" value="Submit" onclick="AddUser()"></td>
+        </tr>
+    </table>
+</div>
+<hr>
+<div id="form_Result_Div">
+    <table id="form_Result_Table">
+        <tr>
+            <td>Name:</td>
+            <td>Mob No:</td>
+            <td>Email:</td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+</html>
